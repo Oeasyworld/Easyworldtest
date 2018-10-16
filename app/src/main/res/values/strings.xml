@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name"><b>Easyworld</b></string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">There is no content yet</string>
+    <string name="title_activity_easy_login">Sign in</string>
+
+
+    <string name="todo">Todo</string>
+
+
+    <string name="prompt_email">Email</string>
+    <!-- Strings related to login -->
+
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Nearby Proffessionals</item>
+        <item>Friends</item>
+        <item>Friends Alarm</item>
+        <item>Nearest Event</item>
+        <item>Settings</item>
+
+
+    </string-array>
+
+
+    <string name="title_activity_login_activityll">Sign in</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="action_Logout">Logout</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_privacy_policy">Privacy Policy</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="title_activity_near_by_prof">NearBy Proffessionals</string>
+    <string name="title_activity_friends">My Friends</string>
+    <string name="title_activity_friends_alarm">Friends Alarm</string>
+    <string name="title_activity_near_by_event">Nearby Event</string>
+    <string name="title_activity_settin">Settings</string>
+    <string name="title_activity_chat_control">Easy Chat</string>
+    <string name="todobtn">TODO</string>
+    <string name="textview">TextView</string>
+
+    <string name="title_activity_video_chat">Easyworld Video Chat</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Cancel">Cancel</string>
+    <string name="name">Name</string>
+    <string name="title_activity_easy_outgoing_call_screen_display">Easy Phone Call
+    </string>
+    <string name="title_activity_outgoing_broadcast_receiver">OutgoingBroadcastReceiver</string>
+    <string name="StartCall">Start Call</string>
+    <string name="title_activity_easy_video_call">EasyVideoCall</string>
+    <string name="title_activity_more_about_you">MoreAboutYou</string>
+    <string name="title_activity_easy_video_call_view">Video Call</string>
+    <string name="postcontent">Content</string>
+    <string name="title_of_your_post">Title of your Post</string>
+    <string name="content_here">Content here</string>
+    <string name="title_here">Title here</string>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MessageContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chat_control_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/DateContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/DataTimeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="190dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/VideoContainerRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp">
+
+        <VideoView
+            android:id="@+id/MyVideo"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="185dp"
+            tools:layout_editor_absoluteY="160dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/VideoContainerLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="50dp">
+
+        <VideoView
+            android:id="@+id/othersVideo"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ImageContainerRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp">
+
+        <ImageButton
+            android:id="@+id/MyImgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/connect"
+            tools:layout_editor_absoluteX="237dp"
+            tools:layout_editor_absoluteY="117dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ImageContainerLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="50dp">
+
+        <ImageButton
+            android:id="@+id/OthersImgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/connect"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="37dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/TextContainerLeftt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+       >
+
+        <TextView
+            android:id="@+id/OtherChatMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_edge_control"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="@color/colorBlue"
+           android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/TextContainerRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:id="@+id/MyChatMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_edge_control2"
+            android:padding="5dp"
+            android:text="TextView"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+
+
+
+
+
+</android.widget.LinearLayout>

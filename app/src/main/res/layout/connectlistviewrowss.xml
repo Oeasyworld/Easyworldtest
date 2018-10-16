@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/colorBlue"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/button_selector"
+            android:elevation="10dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/BodyLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                android:paddingLeft="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorOffWhite"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/ProfileImage"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="4dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+
+
+                        >
+
+                        <TextView
+                            android:id="@+id/PersonInCh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="israel Timothy"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:id="@+id/Positn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Chairman"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/BusName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Oisrael Co-operation"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/Field1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3d Animation"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BannerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/Banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:onClick="ListviewClicked"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/meat" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ActionBtnContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:alpha=".7"
+            android:background="@color/colorBlue"
+
+
+            android:elevation="24dp"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/SendLocationMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:elevation="24dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/sendlocationmsgsmall" />
+
+            <ImageButton
+                android:id="@+id/LocationVideoCal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:elevation="24dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/locationvideocallsmal" />
+
+            <ImageButton
+                android:id="@+id/CircleCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:elevation="24dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/circlecallsmall" />
+
+            <ImageButton
+                android:id="@+id/TrafficReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:elevation="24dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/traficreportsmall" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

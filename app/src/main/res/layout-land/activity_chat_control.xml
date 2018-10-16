@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ng.com.easyworld.easyworld.ChatControlActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/SplashTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/SplashTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_chat_control"
+        android:id="@+id/include"
+         />
+
+
+    <LinearLayout
+        android:id="@+id/ActiContros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/button_selector2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/chattextviewedge"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="#00000000"
+                android:contentDescription="@string/todobtn"
+                app:srcCompat="@drawable/ic_menu_camera" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:background="#00000000"
+                android:contentDescription="@string/todobtn"
+                app:layout_anchor="@+id/include"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="#00000000"
+                android:contentDescription="@string/todobtn"
+                app:srcCompat="@android:drawable/ic_menu_call" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:background="#00000000"
+                android:contentDescription="@string/todobtn"
+                app:layout_anchor="@+id/include"
+                app:layout_anchorGravity="bottom|left"
+                app:srcCompat="@drawable/videocall" />
+
+            <ImageButton
+                android:id="@+id/SendMsgBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_gravity="start|end"
+
+
+                android:background="#00000000"
+                android:contentDescription="@string/todobtn"
+                app:layout_anchor="@+id/include"
+                app:layout_anchorGravity="bottom|center_horizontal"
+                app:srcCompat="@drawable/ic_menu_send" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.widget.RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#331722</color>
+    <color name="colorBlue">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorDirtyWhite">#ccd5df</color>
+    <color name="loginBack">#f3f3f8</color>
+    <color name="colorAccent">#3ed109</color>
+    <color name="platecolor">#36bf24</color>
+    <color name="nocontentyet">#bfbfcc</color>
+    <color name="red">#48d11f</color>
+    <color name="toolbar">#346e23</color>
+    <color name="trafficblue">#231217</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorOffWhite">#e8eaef</color>
+</resources>

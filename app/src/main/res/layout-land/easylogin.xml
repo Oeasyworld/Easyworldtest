@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/easyworldnavigationdrawer" >
+
+    <LinearLayout
+        android:id="@+id/HeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".5"
+        android:paddingTop="70dp"
+        android:layout_marginBottom="40dp">
+
+
+        <TextView
+            android:id="@+id/Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Easyworld"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textColor="@color/colorBlue"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/BodyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Email"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlue"/>
+
+        <EditText
+            android:id="@+id/EmailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorBlue"/>
+
+
+
+        <TextView
+            android:id="@+id/Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Password"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlue"/>
+
+        <EditText
+            android:id="@+id/PasswordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/colorBlue"/>
+
+        <Button
+            android:id="@+id/Signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+
+            android:text="Login or Create an Account"
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

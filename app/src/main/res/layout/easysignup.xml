@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/easyworldnavigationdrawer" >
+
+    <LinearLayout
+        android:id="@+id/HeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".5"
+        android:paddingTop="50dp"
+        android:layout_marginBottom="40dp">
+
+
+        <TextView
+            android:id="@+id/Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Easyworld"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlue"
+            android:textSize="36sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ErrLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/BodyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+
+
+
+        <TextView
+            android:id="@+id/Firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:text="Firstname"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/FirstnameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:textColor="@color/colorBlue"
+            android:inputType="textEmailAddress"
+            />
+
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:text="Email"
+
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/EmailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:textColor="@color/colorBlue"
+            android:inputType="textEmailAddress"
+            />
+
+
+        <TextView
+            android:id="@+id/Password1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Password"
+            android:textColor="@color/colorBlue"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/PasswordTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/colorBlue"
+            android:inputType="textPassword"
+            />
+
+        <RelativeLayout
+            android:id="@+id/PasswordContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/NotMatched"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignBaseline="@+id/PasswordTxt"
+                android:layout_alignBottom="@+id/PasswordTxt"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:text="Not Matched"
+                android:textColor="@color/colorBlue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+
+                android:text="Confirm Password"
+                android:textColor="@color/colorBlue"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/PasswordTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/colorBlue"
+                android:inputType="textPassword"
+                 />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:onClick="SignupBtnClicked"
+            android:text="Signup"
+             />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+
+            <item android:bottom="0dp">
+                <shape>
+                    <gradient android:angle="270"
+                        android:endColor="@color/toolbar" android:startColor="@color/toolbar" />
+                    <stroke android:width="0dp" android:color="@color/toolbar" />
+                    <corners android:bottomRightRadius="0dp"  android:bottomLeftRadius="0dp" />
+                    <padding android:bottom="0dp"
+                        android:right="0dp" android:top="0dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>
